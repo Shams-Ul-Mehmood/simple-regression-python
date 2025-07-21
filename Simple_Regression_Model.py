@@ -6,7 +6,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-data = pd.read_csv("C:\\MS_Cybersecurity\\3rd Semester\\Machine Learning\\Labs\\Lab4\\products.csv")   # Edit the file path.
+data = pd.read_csv("E:\\Cybersecurity\\3rd Semester\\ML\\Labs\\products.csv")   # Edit the file path.
 product_data = pd.DataFrame(data)
 product_name = np.array(product_data.Name)
 product_price = np.array(product_data.Price)
